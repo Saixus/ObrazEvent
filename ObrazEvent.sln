@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObrazEvent.Web", "ObrazEvent.Web\ObrazEvent.Web.csproj", "{ABB5CF96-4159-4B56-815A-8A57C0815D4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObrazEvent.Model", "ObrazEvent.Model\ObrazEvent.Model.csproj", "{32B1C1F2-A9AA-4927-BF3D-DA56865DDD40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObrazEvent.Data", "ObrazEvent.Data\ObrazEvent.Data.csproj", "{6BDDC22B-77D3-43A2-8EE3-E48342B12615}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObrazEvent.Data.Contract", "ObrazEvent.Data.Contract\ObrazEvent.Data.Contract.csproj", "{9A5DE3DE-DFBF-4FE4-99FB-FA67DEA6E370}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ABB5CF96-4159-4B56-815A-8A57C0815D4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABB5CF96-4159-4B56-815A-8A57C0815D4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABB5CF96-4159-4B56-815A-8A57C0815D4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABB5CF96-4159-4B56-815A-8A57C0815D4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32B1C1F2-A9AA-4927-BF3D-DA56865DDD40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32B1C1F2-A9AA-4927-BF3D-DA56865DDD40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32B1C1F2-A9AA-4927-BF3D-DA56865DDD40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32B1C1F2-A9AA-4927-BF3D-DA56865DDD40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BDDC22B-77D3-43A2-8EE3-E48342B12615}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BDDC22B-77D3-43A2-8EE3-E48342B12615}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BDDC22B-77D3-43A2-8EE3-E48342B12615}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BDDC22B-77D3-43A2-8EE3-E48342B12615}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A5DE3DE-DFBF-4FE4-99FB-FA67DEA6E370}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A5DE3DE-DFBF-4FE4-99FB-FA67DEA6E370}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A5DE3DE-DFBF-4FE4-99FB-FA67DEA6E370}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A5DE3DE-DFBF-4FE4-99FB-FA67DEA6E370}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
