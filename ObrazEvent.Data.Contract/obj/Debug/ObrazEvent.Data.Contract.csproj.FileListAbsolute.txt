@@ -12,3 +12,10 @@ C:\Personal\Other\MVC4\ObrazEvent\ObrazEvent.Data.Contract\bin\Debug\ObrazEvent.
 C:\Personal\Other\MVC4\ObrazEvent\ObrazEvent.Data.Contract\obj\Debug\ObrazEvent.Data.Contract.csprojResolveAssemblyReference.cache
 C:\Personal\Other\MVC4\ObrazEvent\ObrazEvent.Data.Contract\obj\Debug\ObrazEvent.Data.Contract.dll
 C:\Personal\Other\MVC4\ObrazEvent\ObrazEvent.Data.Contract\obj\Debug\ObrazEvent.Data.Contract.pdb
+C:\Personal\Other\Git\ObrazEvent\ObrazEvent.Data.Contract\bin\Debug\ObrazEvent.Data.Contract.dll
+C:\Personal\Other\Git\ObrazEvent\ObrazEvent.Data.Contract\bin\Debug\ObrazEvent.Data.Contract.pdb
+C:\Personal\Other\Git\ObrazEvent\ObrazEvent.Data.Contract\bin\Debug\ObrazEvent.Model.dll
+C:\Personal\Other\Git\ObrazEvent\ObrazEvent.Data.Contract\bin\Debug\ObrazEvent.Model.pdb
+C:\Personal\Other\Git\ObrazEvent\ObrazEvent.Data.Contract\obj\Debug\ObrazEvent.Data.Contract.csprojResolveAssemblyReference.cache
+C:\Personal\Other\Git\ObrazEvent\ObrazEvent.Data.Contract\obj\Debug\ObrazEvent.Data.Contract.dll
+C:\Personal\Other\Git\ObrazEvent\ObrazEvent.Data.Contract\obj\Debug\ObrazEvent.Data.Contract.pdb

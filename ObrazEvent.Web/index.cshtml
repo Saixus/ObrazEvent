@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@using System.Web.Optimization
+<!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -10,16 +11,45 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
+    
+        @Styles.Render("~/Content/css", "~/Content/less")
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
 @*        <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">*@
-        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+        <script src="Scripts/modernizr-2.6.2.js"></script>
+        <script src="Scripts/knockout-2.2.1.debug.js"></script>
 </head>
 <body>
-    <div>
+    <div id="busyindicator"></div>
+    <header>
+        <h1>Образ. Ивент-студия.</h1>
+        <nav id="shellTop-view" class="main-nav">
+            <div class="accent-top" data-bind="text: currentUser().fullName"></div>
+            <div class="accent-left"></div>
+            <ul data-bind="with: menuHashes">
+                <li class="route-top"><a data-bind="attr: { href: about }">О компании</a></li>
+                <li class="route-top"><a data-bind="attr: { href: services }">Услуги</a></li>
+                <li class="route-top"><a data-bind="attr: { href: Events }">События</a></li>
+                <li class="route-top"><a data-bind="attr: { href: Comments }">Отзывы</a></li>
+                <li class="route-top"><a data-bind="attr: { href: Photo }">Фото</a></li>
+                <li class="route-top"><a data-bind="attr: { href: Video }">Видео</a></li>
+                <li class="route-top"><a data-bind="attr: { href: Contacts }">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="main">
+        @RenderPage("~/Views/about.cshtml")
+        @RenderPage("~/Views/services.cshtml")
+    </section>
     
-    </div>
+    @Scripts.Render("~/bundles/jquery", 
+                    "~/bundles/jsextlibs", 
+                    "~/Scripts/require.js",
+                    "~/bundles/jsapplibs",
+                    "~/Scripts/main.js")
+    
 </body>
 </html>

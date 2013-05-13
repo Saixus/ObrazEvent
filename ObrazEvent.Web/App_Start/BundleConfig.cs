@@ -1,5 +1,6 @@
 ﻿using System.Web;
 using System.Web.Optimization;
+using CodeCamper.Web;
 
 namespace ObrazEvent.Web
 {
@@ -38,6 +39,22 @@ namespace ObrazEvent.Web
                         "~/Content/themes/base/jquery.ui.datepicker.css",
                         "~/Content/themes/base/jquery.ui.progressbar.css",
                         "~/Content/themes/base/jquery.ui.theme.css"));
+
+            bundles.Add(new ScriptBundle("~/bundles/jsextlibs")
+                .Include("~/Scripts/amplify*",
+                        "~/Scripts/knockout*",
+                        //"~/Scripts/sammy-0.7.4.js",  // This version fails with recursion stack overflow exception when tries to get nextRoute = function() {... apply ...
+                        "~/Scripts/sammy.js",
+                        "~/Scripts/toastr.js",
+                        "~/Scripts/underscore.js"));
+
+            // All application JS files (except mocks)
+            bundles.Add(new ScriptBundle("~/bundles/jsapplibs")
+                .IncludeDirectory("~/Scripts/app/", "*.js", searchSubdirectories: false));
+
+            // Custom LESS files
+            bundles.Add(new Bundle("~/Content/Less", new LessTransform(), new CssMinify())
+                .Include("~/Content/styles.less"));
         }
     }
 }

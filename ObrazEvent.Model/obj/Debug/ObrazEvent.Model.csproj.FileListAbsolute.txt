@@ -7,3 +7,7 @@ C:\Personal\Other\MVC4\ObrazEvent\ObrazEvent.Model\bin\Debug\ObrazEvent.Model.pd
 C:\Personal\Other\MVC4\ObrazEvent\ObrazEvent.Model\obj\Debug\ObrazEvent.Model.csprojResolveAssemblyReference.cache
 C:\Personal\Other\MVC4\ObrazEvent\ObrazEvent.Model\obj\Debug\ObrazEvent.Model.dll
 C:\Personal\Other\MVC4\ObrazEvent\ObrazEvent.Model\obj\Debug\ObrazEvent.Model.pdb
+C:\Personal\Other\Git\ObrazEvent\ObrazEvent.Model\bin\Debug\ObrazEvent.Model.dll
+C:\Personal\Other\Git\ObrazEvent\ObrazEvent.Model\bin\Debug\ObrazEvent.Model.pdb
+C:\Personal\Other\Git\ObrazEvent\ObrazEvent.Model\obj\Debug\ObrazEvent.Model.dll
+C:\Personal\Other\Git\ObrazEvent\ObrazEvent.Model\obj\Debug\ObrazEvent.Model.pdb

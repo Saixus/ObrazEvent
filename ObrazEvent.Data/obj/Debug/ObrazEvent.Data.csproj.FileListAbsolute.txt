@@ -22,3 +22,15 @@ C:\Personal\Other\MVC4\ObrazEvent\ObrazEvent.Data\bin\Debug\EntityFramework.xml
 C:\Personal\Other\MVC4\ObrazEvent\ObrazEvent.Data\obj\Debug\ObrazEvent.Data.csprojResolveAssemblyReference.cache
 C:\Personal\Other\MVC4\ObrazEvent\ObrazEvent.Data\obj\Debug\ObrazEvent.Data.dll
 C:\Personal\Other\MVC4\ObrazEvent\ObrazEvent.Data\obj\Debug\ObrazEvent.Data.pdb
+C:\Personal\Other\Git\ObrazEvent\ObrazEvent.Data\bin\Debug\ObrazEvent.Data.dll.config
+C:\Personal\Other\Git\ObrazEvent\ObrazEvent.Data\bin\Debug\ObrazEvent.Data.dll
+C:\Personal\Other\Git\ObrazEvent\ObrazEvent.Data\bin\Debug\ObrazEvent.Data.pdb
+C:\Personal\Other\Git\ObrazEvent\ObrazEvent.Data\bin\Debug\EntityFramework.dll
+C:\Personal\Other\Git\ObrazEvent\ObrazEvent.Data\bin\Debug\ObrazEvent.Data.Contract.dll
+C:\Personal\Other\Git\ObrazEvent\ObrazEvent.Data\bin\Debug\ObrazEvent.Model.dll
+C:\Personal\Other\Git\ObrazEvent\ObrazEvent.Data\bin\Debug\ObrazEvent.Data.Contract.pdb
+C:\Personal\Other\Git\ObrazEvent\ObrazEvent.Data\bin\Debug\ObrazEvent.Model.pdb
+C:\Personal\Other\Git\ObrazEvent\ObrazEvent.Data\bin\Debug\EntityFramework.xml
+C:\Personal\Other\Git\ObrazEvent\ObrazEvent.Data\obj\Debug\ObrazEvent.Data.csprojResolveAssemblyReference.cache
+C:\Personal\Other\Git\ObrazEvent\ObrazEvent.Data\obj\Debug\ObrazEvent.Data.dll
+C:\Personal\Other\Git\ObrazEvent\ObrazEvent.Data\obj\Debug\ObrazEvent.Data.pdb
